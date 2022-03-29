@@ -2,7 +2,7 @@
 
 ## Project: Weather App
 
-[Live Page Here]()
+[Live Page Here](https://deslni01.github.io/weather-sports/)
 
 ### Comments:
 
@@ -27,4 +27,4 @@
 
 -   [ ] Optional: add a ‘loading’ component that displays from the time the form is submitted until the information comes back from the API.
 
--   [ ] Push that baby to github and share your solution below!
+-   [x] Push that baby to github and share your solution below!

@@ -132,7 +132,6 @@ app('Minneapolis');
 
 const searchCity = document.querySelector('.search-city');
 const searchBar = document.querySelector('#city-search');
-const searchBtn = document.querySelector('#search-btn');
 
 searchCity.addEventListener('submit', (e) => {
 	e.preventDefault();
