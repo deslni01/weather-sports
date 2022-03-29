@@ -1,0 +1,99 @@
+#container {
+	margin-top: 15px;
+	background-color: tan;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 47.5% 47.5% 5%;
+	grid-template-areas:
+		'weather weather weather weather'
+		'hockey hockey baseball baseball'
+		'footer footer footer footer';
+	justify-items: stretch;
+	justify-content: center;
+	align-content: center;
+	width: 98vw;
+	height: 98vh;
+}
+
+#weather {
+	grid-area: weather;
+	background-color: blue;
+}
+
+#weather-header {
+	text-align: center;
+}
+
+#forecast {
+	height: 250%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+#hockey {
+	grid-area: hockey;
+	background-color: green;
+}
+
+#hockey-header {
+	text-align: center;
+}
+
+#wild-schedule {
+	height: 250%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+#baseball {
+	grid-area: baseball;
+	background-color: red;
+}
+
+#baseball-header {
+	text-align: center;
+}
+
+#twins-schedule {
+	height: 250%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+#footer {
+	grid-area: footer;
+	background-color: tan;
+	text-align: center;
+}
+
+.day {
+	flex: 1 1 auto;
+	flex-direction: column;
+	background: rgba(76, 175, 80, 0.5);
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 25%;
+	width: 20%;
+	/* display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-basis: auto;
+	flex-shrink: 3; */
+	text-align: center;
+}
+
+.home {
+	/* Set to Wild home color */
+	background: rgba(0, 255, 157, 0.5);
+}
+
+.away {
+	/* Set to Wild away color - white? iron range red? */
+	background: rgba(15, 119, 255, 0.5);
+}

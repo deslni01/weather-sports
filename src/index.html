@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Nick's Weather and Stuff</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="container">
+			<div id="weather">
+				<div id="weather-header">
+					<h1>The Weather</h1>
+					<h2 id="city-name">City Name</h2>
+				</div>
+				<div id="forecast">
+					<div class="day today">
+						<h3>Today:</h3>
+						<p id="today-desc">Cloudy</p>
+						<p id="today-current">Current: 50*</p>
+						<p id="today-feel">Feels Like: 45*</p>
+						<p id="today-high">High/Low: 50*/38*</p>
+						<p id="today-wind">Wind: 14mph</p>
+						<p id="today-sunrise">Sunrise: 7:48am</p>
+						<p id="today-sunset">Sunset: 7:48pm</p>
+					</div>
+
+					<div class="day day-1">
+						<h3 id="date-1">tomorrow</h3>
+						<p id="desc-1">Cloudy</p>
+						<p id="current-1">Current: 51*</p>
+						<p id="feel-1">Feels Like: 45*</p>
+						<p id="high-1">High/Low: 51*/38*</p>
+						<p id="wind-1">Wind: 14mph</p>
+						<p id="sunrise-1">Sunrise: 7:48am</p>
+						<p id="sunset-1">Sunset: 7:48pm</p>
+					</div>
+					<div class="day day-2">
+						<h3 id="date-2">two-day</h3>
+						<p id="desc-2">Cloudy</p>
+						<p id="current-2">Current: 52*</p>
+						<p id="feel-2">Feels Like: 45*</p>
+						<p id="high-2">High/Low: 52*/38*</p>
+						<p id="wind-2">Wind: 24mph</p>
+						<p id="sunrise-2">Sunrise: 7:48am</p>
+						<p id="sunset-2">Sunset: 7:48pm</p>
+					</div>
+					<div class="day day-3">
+						<h3 id="date-3">three-day</h3>
+						<p id="desc-3">Cloudy</p>
+						<p id="current-3">Current: 53*</p>
+						<p id="feel-3">Feels Like: 45*</p>
+						<p id="high-3">High/Low: 53*/38*</p>
+						<p id="wind-3">Wind: 14mph</p>
+						<p id="sunrise-3">Sunrise: 7:48am</p>
+						<p id="sunset-3">Sunset: 7:48pm</p>
+					</div>
+					<div class="day day-4">
+						<h3 id="date-4">four-day</h4>
+						<p id="desc-4">Cloudy</p>
+						<p id="current-4">Current: 54*</p>
+						<p id="feel-4">Feels Like: 45*</p>
+						<p id="high-4">High/Low: 54*/48*</p>
+						<p id="wind-4">Wind: 14mph</p>
+						<p id="sunrise-4">Sunrise: 7:48am</p>
+						<p id="sunset-4">Sunset: 7:48pm</p>
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div id="hockey">
+				<div id="hockey-header">
+					<h1>The Wild</h1>
+					<h2 id="wild-record">( XX - XX - XX )</h2>
+					<h4>Last Ten: ( x - x - x )</h3>
+				</div>
+				<div id="wild-schedule">
+					<div class="day today home">
+						<h3>today</h3>
+						<p>LOGO</p>
+						<p>Philadelphia Flyers</p>
+						<p>( 25 - 20 - 8)</p>
+						<p>Last Ten:</p>
+						<p>( x - x - x )</p>
+						<p>7:00 PM</p>
+					</div>
+					<div class="day tomorrow">
+						<h3>tomorrow</h3>
+						<p>No game today :(</p>
+						<p></p>
+						<p></p>
+						<p></p>
+					</div>
+					<div class="day two-day away">
+						<h3>two-day</h3>
+						<p>LOGO</p>
+						<p>@ Philadelphia Flyers</p>
+						<p>( 25 - 20 - 8)</p>
+						<p>Last Ten:</p>
+						<p>( x - x - x )</p>
+						<p>7:00 PM</p>
+					</div>
+					<div class="day three-day">
+						<h3>three-day</h3>
+						<p>No game today :(</p>
+					</div>
+					<div class="day four-day away">
+						<h3>four-day</h3>
+						<p>LOGO</p>
+						<p>@ Philadelphia Flyers</p>
+						<p>( 25 - 20 - 8)</p>
+						<p>Last Ten:</p>
+						<p>( x - x - x )</p>
+						<p>7:00 PM</p>
+					</div>
+				</div>
+			</div>
+			<div id="baseball">
+				<div id="baseball-header">
+					<h1>The Twins</h1>
+					<h2 id="twins-record">( XX - XX - XX )</h2>
+					<h4>Last Ten: ( x - x - x )</h3>
+				</div>
+				<div id="twins-schedule">
+					<div class="day today">
+						<h3>today</h3>
+						<p>No game today :(</p>
+						<p></p>
+						<p></p>
+						<p></p>
+					</div>
+					<div class="day tomorrow"><h3>tomorrow</h3></div>
+					<div class="day two-day"><h3>two-day</h3></div>
+					<div class="day three-day"><h3>three-day</h3></div>
+					<div class="day four-day"><h3>four-day</h3></div>
+				</div>
+			</div>
+			<div id="footer">
+				<h1>Some footer stuff here</h1>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
+
+<!-- 
+Weather needs:
+// - name of city
+// - lat/lon of city
+// - 'main' - description
+// - icon
+// - main: temp
+// - main: feels like
+// - main: temp-min
+// - main: temp-max
+// - wind: speed
+// - clouds: all %
+// - sys: sunrise
+// - sys: sunset 
+-->
+
+<!-- 
+Hockey/Twins needs:
+// - Game/no game?
+// - LOGO - need to figure this out, can't find on API - have svg files from here: https://github.com/gidger/rpi-led-nhl-scoreboard/tree/main/assets/images/team%20logos/svg , figure out how to add these to each team?
+// - Opponent
+// - Opponent Record
+// - Home or Away?
+// - Time of game
+
+ -->
