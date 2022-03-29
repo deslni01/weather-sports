@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 #container {
 	margin-top: 15px;
 	background-color: tan;
@@ -17,7 +21,8 @@
 
 #weather {
 	grid-area: weather;
-	background-color: blue;
+	background-image: url('Imgs/neda-astani-KWTkd7mHqKE-unsplash.jpg');
+	background-size: 100vw 100vh;
 }
 
 #weather-header {
@@ -30,6 +35,36 @@
 	flex-flow: row nowrap;
 	justify-content: center;
 	align-items: stretch;
+}
+
+#weather .day {
+	flex: 1 1 auto;
+	flex-direction: column;
+	background: rgba(59, 59, 59, 0.25);
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 25%;
+	width: 20%;
+	text-align: center;
+}
+
+input {
+	background: rgba(15, 119, 255, 0);
+	border-style: hidden;
+	color: black;
+	width: 220px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+#weather-header button {
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: rgba(15, 119, 255, 0);
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
 }
 
 #hockey {

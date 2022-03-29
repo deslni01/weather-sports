@@ -5,7 +5,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Nick's Weather and Stuff</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css" />
+
 	</head>
 	<body>
 		<div id="container">
@@ -13,6 +15,10 @@
 				<div id="weather-header">
 					<h1>The Weather</h1>
 					<h2 id="city-name">City Name</h2>
+					<form class="search-city">
+					<input type="text" name="city" id="city-search" placeholder="Search New City.." required>
+					<button type="submit" id="search-btn"><i class="fa fa-search"></i></button>
+				</form>
 				</div>
 				<div id="forecast">
 					<div class="day today">
